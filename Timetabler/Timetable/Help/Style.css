@@ -1,0 +1,70 @@
+h1, td h1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #30A7C9;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	padding: 2px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+}
+h2, td h2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #006699;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 2px;
+	margin: 2px;
+	margin-left: 0px;
+	padding-left: 0px;
+	padding-top: 4px;
+}
+h3, td h3 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #006699;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 3px;
+	padding-top: 1px;
+	padding-left: 0px;
+}
+
+h4, td h4 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #006699;
+	font-size: 13px;
+	font-style: italic;
+	text-decoration: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.content {
+	width: 700px;
+	text-align: left;
+	color: #333333;
+	padding: 10px;
+	padding-top: 0px;
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.content td {
+	vertical-align: top;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+p a, .content a, .content td a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #006699;
+	font-size: 13px;
+	text-decoration:underline;

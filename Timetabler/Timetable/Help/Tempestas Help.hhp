@@ -1,0 +1,22 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Tempestas Help.chm
+Contents file=Table of Contents.hhc
+Default Window=HelpWindow
+Default topic=Welcome.htm
+Display compile progress=No
+Index file=Index.hhk
+Language=0x809 English (United Kingdom)
+Title=Tempestas Help
+
+[WINDOWS]
+HelpWindow="Tempestas Help","Table of Contents.hhc","Index.hhk","Known Bugs.htm",,,,,,0x2120,200,0x3006,[180,128,980,728],,,,,,,0
+
+
+[FILES]
+Known Bugs.htm
+Updates.htm
+Welcome.htm
+
+[INFOTYPES]
+

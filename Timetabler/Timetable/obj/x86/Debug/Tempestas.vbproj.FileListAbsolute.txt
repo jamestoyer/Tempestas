@@ -1,0 +1,145 @@
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.BothSetUp.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.Button.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.DayEventView.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.WeekButton.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.WeekEventView.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.WeekSetUp.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.WeekTime.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.WeekView.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmAbout1.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmMainScreen.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmAreYouSure.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUnableToConnect.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmFindDatabase.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmLogin.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewModule.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewRoom.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewStaff.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewTimetableSystem.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectContact.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectModule.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectRoom.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectStaff.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSuggestionsAndComments.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateModule.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateRoom.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateStaff.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmBothTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmEvent.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmTermTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmModule.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmRoom.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectModifyDelete.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateContact.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewContact.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmContact.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmStaff.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmTimetableSystem.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmWeekTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmOptions.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmInheritFromForm.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.Images.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.Resources.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSplash.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.resInheritFromFormImages.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.vbproj.GenerateResource.Cache
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewEvent.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmSelectEvent.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateAllEntries.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateEvent.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe.config
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe.manifest
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.application
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.pdb
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.xml
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.TrustInfo.xml
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.exe.manifest
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.application
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.exe
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.xml
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.pdb
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Help\Tempestas Help.chm
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Data\dbTempestas.mdf
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Data\dbTempestas_log.ldf
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUser.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewUser.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmUpdateUser.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewWeekTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.TermAndWeekSetup.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewTermTimetable.resources
+F:\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Timetable.frmNewBothTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe.config
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.exe
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.xml
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.pdb
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Data\dbTempestas.mdf
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Data\dbTempestas_log.ldf
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Help\Tempestas Help.chm
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe.manifest
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.application
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.exe
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.pdb
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\bin\x86\Debug\Tempestas.xml
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.vbproj.GenerateResource.Cache
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.TrustInfo.xml
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.exe.manifest
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.application
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.Button.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.DayEventView.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.TermAndWeekSetup.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.WeekButton.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.WeekEventView.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.WeekSetUp.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.WeekTime.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.WeekView.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewBothTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewTermTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewWeekTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewUser.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmAbout1.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateAllEntries.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewEvent.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectEvent.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmMainScreen.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmAreYouSure.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUnableToConnect.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmFindDatabase.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmLogin.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewModule.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewRoom.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewStaff.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewTimetableSystem.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectContact.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectModule.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectRoom.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectStaff.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSuggestionsAndComments.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateEvent.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateModule.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateRoom.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateStaff.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateUser.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmBothTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmEvent.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmTermTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUser.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmModule.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmRoom.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSelectModifyDelete.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmUpdateContact.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmNewContact.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmContact.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmStaff.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmTimetableSystem.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmWeekTimetable.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmOptions.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmInheritFromForm.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.Images.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.Resources.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.frmSplash.resources
+E:\Documents and Settings\Documents\Software Projects\Uncoded Projects\Timetabler\Timetabler\Timetable\obj\x86\Debug\Tempestas.resInheritFromFormImages.resources

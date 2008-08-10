@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tempestas", "Timetable\Tempestas.vbproj", "{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TempestasSetup", "TempestasSetup\TempestasSetup.vdproj", "{63AF646A-41D8-4837-9E79-B15434F3E14B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|x64.ActiveCfg = Debug|x64
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|x64.Build.0 = Debug|x64
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|x86.ActiveCfg = Debug|x86
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Debug|x86.Build.0 = Debug|x86
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|x64.ActiveCfg = Release|x64
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|x64.Build.0 = Release|x64
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|x86.ActiveCfg = Release|x86
+		{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}.Release|x86.Build.0 = Release|x86
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Debug|Any CPU.ActiveCfg = Debug
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Debug|x64.ActiveCfg = Debug
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Debug|x86.ActiveCfg = Debug
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Release|Any CPU.ActiveCfg = Release
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Release|x64.ActiveCfg = Release
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Release|x86.ActiveCfg = Release
+		{63AF646A-41D8-4837-9E79-B15434F3E14B}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

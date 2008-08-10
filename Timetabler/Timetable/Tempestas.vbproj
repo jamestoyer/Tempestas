@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7650D2EE-ED1C-43C0-9A54-797EC4A9ACFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Tempestas.My.MyApplication</StartupObject>
+    <RootNamespace>Tempestas</RootNamespace>
+    <AssemblyName>Tempestas</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>0562BC79FC5EE058B1658C1A8D871A392C005FA3</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>Resources\table_sql_view.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>C:\Documents and Settings\James\Desktop\James\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DocumentationFile>Tempestas.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\WindowsFormsIntegration\3.0.0.0__31bf3856ad364e35\WindowsFormsIntegration.dll</HintPath>
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Database.vb" />
+    <Compile Include="Classes\TextBoxEvents.vb" />
+    <Compile Include="Classes\Timetable.vb" />
+    <Compile Include="Controls\TermAndWeekSetup.Designer.vb">
+      <DependentUpon>TermAndWeekSetup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TermAndWeekSetup.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WeekSetUp.Designer.vb">
+      <DependentUpon>WeekSetUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeekSetUp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewBothTimetable.Designer.vb">
+      <DependentUpon>frmNewBothTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewBothTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewTermTimetable.Designer.vb">
+      <DependentUpon>frmNewTermTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewTermTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewUser.Designer.vb">
+      <DependentUpon>frmNewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmUpdateAllEntries.Designer.vb">
+      <DependentUpon>frmUpdateAllEntries.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmUpdateAllEntries.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewEvent.Designer.vb">
+      <DependentUpon>frmNewEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewWeekTimetable.Designer.vb">
+      <DependentUpon>frmNewWeekTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewWeekTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectEvent.Designer.vb">
+      <DependentUpon>frmSelectEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectTimetable.designer.vb">
+      <DependentUpon>frmSelectTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewModule.Designer.vb">
+      <DependentUpon>frmNewModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewRoom.Designer.vb">
+      <DependentUpon>frmNewRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewStaff.Designer.vb">
+      <DependentUpon>frmNewStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewTimetableSystem.Designer.vb">
+      <DependentUpon>frmNewTimetableSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmNewTimetableSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectModule.Designer.vb">
+      <DependentUpon>frmSelectModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectRoom.Designer.vb">
+      <DependentUpon>frmSelectRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectStaff.Designer.vb">
+      <DependentUpon>frmSelectStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSuggestionsAndComments.Designer.vb">
+      <DependentUpon>frmSuggestionsAndComments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSuggestionsAndComments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmUpdateEvent.Designer.vb">
+      <DependentUpon>frmUpdateEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmUpdateEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateModule.Designer.vb">
+      <DependentUpon>frmUpdateModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateStaff.Designer.vb">
+      <DependentUpon>frmUpdateStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateUser.Designer.vb">
+      <DependentUpon>frmUpdateUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmBothTimetable.Designer.vb">
+      <DependentUpon>frmBothTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmBothTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmEvent.Designer.vb">
+      <DependentUpon>frmEvent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmEvent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmTermTimetable.Designer.vb">
+      <DependentUpon>frmTermTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmTermTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmUser.Designer.vb">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmStaff.Designer.vb">
+      <DependentUpon>frmStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateRoom.Designer.vb">
+      <DependentUpon>frmUpdateRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmModule.Designer.vb">
+      <DependentUpon>frmModule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmModule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmRoom.Designer.vb">
+      <DependentUpon>frmRoom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmRoom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmTimetableSystem.Designer.vb">
+      <DependentUpon>frmTimetableSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmTimetableSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmWeekTimetable.Designer.vb">
+      <DependentUpon>frmWeekTimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmWeekTimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\ApplicationEvents.vb" />
+    <Compile Include="Controls\Button.designer.vb">
+      <DependentUpon>Button.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Button.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DayEventView.Designer.vb">
+      <DependentUpon>DayEventView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DayEventView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PictureBoxButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\WeekButton.Designer.vb">
+      <DependentUpon>WeekButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeekButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WeekEventView.Designer.vb">
+      <DependentUpon>WeekEventView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeekEventView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WeekTime.Designer.vb">
+      <DependentUpon>WeekTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeekTime.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\WeekView.Designer.vb">
+      <DependentUpon>WeekView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\WeekView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls Started GUI\frmAbout1.Designer.vb">
+      <DependentUpon>frmAbout1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls Started GUI\frmAbout1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Controls Started GUI\frmMainScreen.Designer.vb">
+      <DependentUpon>frmMainScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Controls Started GUI\frmMainScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmAreYouSure.Designer.vb">
+      <DependentUpon>frmAreYouSure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmAreYouSure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmUnableToConnect.designer.vb">
+      <DependentUpon>frmUnableToConnect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Dialogs\frmUnableToConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmFindDatabase.designer.vb">
+      <DependentUpon>frmFindDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmFindDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmLogin.designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectContact.Designer.vb">
+      <DependentUpon>frmSelectContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Almost Finished GUI\frmSelectContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmSelectModifyDelete.Designer.vb">
+      <DependentUpon>frmSelectModifyDelete.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmSelectModifyDelete.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateContact.Designer.vb">
+      <DependentUpon>frmUpdateContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmUpdateContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewContact.Designer.vb">
+      <DependentUpon>frmNewContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmNewContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmContact.Designer.vb">
+      <DependentUpon>frmContact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Finished GUI\frmContact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Not Started GUI\frmOptions.Designer.vb">
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Not Started GUI\frmOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmInheritFromForm.designer.vb">
+      <DependentUpon>frmInheritFromForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Inherit Forms\Almost Finished GUI\frmInheritFromForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Images.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Images.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\mdlDatabaseRelated.vb" />
+    <Compile Include="Modules\mdlGeneral.vb" />
+    <Compile Include="Modules\mdlGlobalVariables.vb" />
+    <Compile Include="Modules\mdlWeekButtonCode.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Finished GUI\frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="resInheritFromFormImages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>resInheritFromFormImages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Button.resx">
+      <DependentUpon>Button.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DayEventView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DayEventView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TermAndWeekSetup.resx">
+      <DependentUpon>TermAndWeekSetup.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeekButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeekButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeekEventView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeekEventView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeekSetUp.resx">
+      <DependentUpon>WeekSetUp.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeekTime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeekTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\WeekView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WeekView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmNewBothTimetable.resx">
+      <DependentUpon>frmNewBothTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmNewTermTimetable.resx">
+      <DependentUpon>frmNewTermTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmNewWeekTimetable.resx">
+      <DependentUpon>frmNewWeekTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmNewUser.resx">
+      <DependentUpon>frmNewUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls Started GUI\frmAbout1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmUpdateAllEntries.resx">
+      <DependentUpon>frmUpdateAllEntries.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmNewEvent.resx">
+      <DependentUpon>frmNewEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectEvent.resx">
+      <DependentUpon>frmSelectEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectTimetable.resx">
+      <DependentUpon>frmSelectTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Controls Started GUI\frmMainScreen.resx">
+      <DependentUpon>frmMainScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmAreYouSure.resx">
+      <DependentUpon>frmAreYouSure.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Dialogs\frmUnableToConnect.resx">
+      <DependentUpon>frmUnableToConnect.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmFindDatabase.resx">
+      <DependentUpon>frmFindDatabase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmNewModule.resx">
+      <DependentUpon>frmNewModule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmNewRoom.resx">
+      <DependentUpon>frmNewRoom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmNewStaff.resx">
+      <DependentUpon>frmNewStaff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmNewTimetableSystem.resx">
+      <DependentUpon>frmNewTimetableSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectContact.resx">
+      <DependentUpon>frmSelectContact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectModule.resx">
+      <DependentUpon>frmSelectModule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectRoom.resx">
+      <DependentUpon>frmSelectRoom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSelectStaff.resx">
+      <DependentUpon>frmSelectStaff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmSuggestionsAndComments.resx">
+      <DependentUpon>frmSuggestionsAndComments.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Almost Finished GUI\frmUpdateEvent.resx">
+      <DependentUpon>frmUpdateEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmUpdateModule.resx">
+      <DependentUpon>frmUpdateModule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmUpdateRoom.resx">
+      <DependentUpon>frmUpdateRoom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmUpdateStaff.resx">
+      <DependentUpon>frmUpdateStaff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmUpdateUser.resx">
+      <DependentUpon>frmUpdateUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmBothTimetable.resx">
+      <DependentUpon>frmBothTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmEvent.resx">
+      <DependentUpon>frmEvent.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmTermTimetable.resx">
+      <DependentUpon>frmTermTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Finished GUI\frmUser.resx">
+      <DependentUpon>frmUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Finished GUI\frmModule.resx">
+      <DependentUpon>frmModule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Finished GUI\frmRoom.resx">
+      <DependentUpon>frmRoom.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmSelectModifyDelete.resx">
+      <DependentUpon>frmSelectModifyDelete.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmUpdateContact.resx">
+      <DependentUpon>frmUpdateContact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmNewContact.resx">
+      <DependentUpon>frmNewContact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Finished GUI\frmContact.resx">
+      <DependentUpon>frmContact.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Finished GUI\frmStaff.resx">
+      <DependentUpon>frmStaff.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmTimetableSystem.resx">
+      <DependentUpon>frmTimetableSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmWeekTimetable.resx">
+      <DependentUpon>frmWeekTimetable.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Not Started GUI\frmOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Inherit Forms\Almost Finished GUI\frmInheritFromForm.resx">
+      <DependentUpon>frmInheritFromForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Images.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Finished GUI\frmSplash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resInheritFromFormImages.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>resInheritFromFormImages.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\dbTempestas.mdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Data\dbTempestas_log.ldf">
+      <DependentUpon>dbTempestas.mdf</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Help\Known Bugs.htm" />
+    <None Include="Help\Updates.htm" />
+    <None Include="Help\Index.hhk" />
+    <None Include="Help\Log1.log" />
+    <None Include="Help\Table of Contents.hhc" />
+    <Content Include="Help\Tempestas Help.chm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Help\Tempestas Help.hhp" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My</CustomToolNamespace>
+    </None>
+    <None Include="Resources\delete2.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\table_sql_select.png" />
+    <None Include="Resources\table_sql_add.png" />
+    <None Include="Resources\businessman_delete.png" />
+    <None Include="Resources\preferences.png" />
+    <None Include="Resources\folder_out.png" />
+    <None Include="Resources\export1.png" />
+    <None Include="Resources\document_new.png" />
+    <None Include="Resources\btnLoadUp.png" />
+    <None Include="Resources\btnLoadDown.png" />
+    <None Include="Resources\btnLoadDisabled.png" />
+    <None Include="Resources\btnLoginUp.png" />
+    <None Include="Resources\btnLoginDown.png" />
+    <None Include="Resources\btnLoginDisabled.png" />
+    <None Include="Resources\btnNewUp.png" />
+    <None Include="Resources\btnNewDown.png" />
+    <None Include="Resources\btnNewDisabled.png" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="app.config" />
+    <None Include="Resources\btnAddDisabled.png" />
+    <None Include="Resources\btnAddDown.png" />
+    <None Include="Resources\btnAddUp.png" />
+    <None Include="Resources\btnCancelDisabled.png" />
+    <None Include="Resources\btnCancelDown.png" />
+    <None Include="Resources\btnCancelUp.png" />
+    <None Include="Resources\btnDeleteUp.png" />
+    <None Include="Resources\btnDeleteDisabled.png" />
+    <None Include="Resources\btnDeleteDown.png" />
+    <None Include="Resources\btnModifyDisabled.png" />
+    <None Include="Resources\btnModifyDown.png" />
+    <None Include="Resources\btnModifyUp.png" />
+    <None Include="Resources\btnUpdateDown.png" />
+    <None Include="Resources\btnUpdateUp.png" />
+    <None Include="Resources\btnUpdateDisabled.png" />
+    <None Include="Resources\btnSendDisabled.png" />
+    <None Include="Resources\btnSendDown.png" />
+    <None Include="Resources\btnSendUp.png" />
+    <None Include="Resources\btnOKDown.png" />
+    <None Include="Resources\btnOKUp.png" />
+    <None Include="Resources\btnOKDisabled.png" />
+    <None Include="Resources\btnBrowseDisabled.png" />
+    <None Include="Resources\btnBrowseDown.png" />
+    <None Include="Resources\btnBrowseUp.png" />
+    <None Include="Resources\AboutScreen.png" />
+    <None Include="Resources\btnLeftEnabled.png" />
+    <None Include="Resources\btnCloseCrossDown.png" />
+    <None Include="Resources\btnCloseCrossEnter.png" />
+    <None Include="Resources\btnCloseCrossUp.png" />
+    <None Include="Resources\btnMaximiseDown.png" />
+    <None Include="Resources\btnMaximiseEnter.png" />
+    <None Include="Resources\btnMaximiseUp.png" />
+    <None Include="Resources\btnMinimiseDown.png" />
+    <None Include="Resources\btnMinimiseEnter.png" />
+    <None Include="Resources\btnMinimiseUp.png" />
+    <None Include="Resources\btnBackDisabled.png" />
+    <None Include="Resources\btnBackDown.png" />
+    <None Include="Resources\btnBackUp.png" />
+    <None Include="Resources\btnNextDisabled.png" />
+    <None Include="Resources\btnNextDown.png" />
+    <None Include="Resources\btnNextUp.png" />
+    <None Include="Resources\btnCreateDisabled.png" />
+    <None Include="Resources\btnCreateDown.png" />
+    <None Include="Resources\btnCreateUp.png" />
+    <None Include="Resources\TitleBarCentre.png" />
+    <None Include="Resources\TitleBarRightEdge.png" />
+    <None Include="Resources\media_play_green.png" />
+    <None Include="Resources\SplashScreen.png" />
+    <None Include="Resources\help.png" />
+    <None Include="Resources\table_sql_view.ico" />
+    <None Include="Resources\add2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.1.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="dbTimetables1.1temp_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="dbTimetables1.1_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\dbTimetables1.0.0temp_log.ldf">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
