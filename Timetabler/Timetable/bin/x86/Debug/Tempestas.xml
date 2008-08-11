@@ -6,220 +6,7 @@ Tempestas
 </name>
 </assembly>
 <members>
-<member name="P:Tempestas.PictureBoxButton.ImageList">
-	<summary>
- Gets/sets the list of images used to display
- for the three states: normal (up), depressed
- (down) and disabled (grayed)
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.OnCreateControl">
-	<summary>
- When the control is instantiated, load
- the images used by the various button states.
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.OnClick(System.EventArgs)">
-	<summary>
- When the control is clicked, display the image
- for "normal" (up) state.
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
-	<summary>
- When a mouse button is released, display the image
- for the "normal" (up) state.
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
-	<summary>
- When a mouse button is pressed on the control,
- display the image for the "depressed" (down) state.
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.OnEnabledChanged(System.EventArgs)">
-	<summary>
- When the control is enabled or disabled, display
- the appropriate image for the enabled (normal) or
- disabled (gray) state.
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.SetImageList">
-	<summary>
- This method (called when the ImageList property
- is set) sets the appropriate image for the control
- based on its enabled state, and sizes itself
- to accommodate the dimensions of the image.
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.PictureBoxButton.SetButtonImage(System.Int32)">
-	<summary>
- Set the image to the state specified by the
- imageIndex parameter, which must be set to
- one of the three values for normal (0),
- depressed (1) or disabled (2).
- </summary>
-</member><member name="P:Tempestas.PictureBoxButton.DialogResult">
-	<summary>
- Stub property required to implement IButtonControl
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.NotifyDefault(System.Boolean)">
-	<summary>
- Stub method required to implement IButtonControl
- </summary>
-</member><member name="M:Tempestas.PictureBoxButton.PerformClick">
-	<summary>
- Respond to the notification given by IButtonControl that
- a button click has occurred. 
- </summary>
-</member><member name="T:Tempestas.PictureBoxButton">
-	<summary>
- This control extends the standard PictureBox control into a
- clickable button supporting images for the "up-state",
- "down-state" and "disabled-state" of the button.
- </summary>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControlHeight.Term">
-	<summary>
- The height of the control, in pixels, for a term system
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControlHeight.Both">
-	<summary>
- The height of the control, in pixels, for a term system
- </summary>
-	<remarks></remarks>
-</member><member name="T:Tempestas.TermAndWeekSetup.intControlHeight">
-	<summary>
- Enumeration to hold the size of the control for different states
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControls.StartDate">
-	<summary>
- The value to identify the start date date time picker
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControls.FinishDate">
-	<summary>
- The value to identify the finish date date time picker
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControls.Length">
-	<summary>
- The value to identify the length text box
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControls.StartWeek">
-	<summary>
- The value to identify the start week text box
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intControls.FinishWeek">
-	<summary>
- The value to identify the finish week text box
- </summary>
-	<remarks></remarks>
-</member><member name="T:Tempestas.TermAndWeekSetup.intControls">
-	<summary>
- Enumeration to identify the different controls
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.bolUpdating">
-	<summary>
- True if the controls are updating otherwise false
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.bolTermSetup">
-	<summary>
- Stores the result of the term setup property
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.TermAndWeekSetup.intTerm">
-	<summary>
- Variable to hold the term number
- </summary>
-	<remarks></remarks>
-</member><member name="P:Tempestas.TermAndWeekSetup.TermSetup">
-	<summary>
- The property for setting the state of the control
- </summary>
-	<value>Boolean to decide if the control is meant to be a term setup system, true = term system, false = week system</value>
-	<returns>Returns true if the control is meant to be a term setup system</returns>
-	<remarks></remarks>
-</member><member name="P:Tempestas.TermAndWeekSetup.TermNumber">
-	<summary>
- Property to set the term of the control
- </summary>
-	<value>Integer value indicating the term number of the control</value>
-	<returns>Returns the integer value of the term</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.ControlResize">
-	<summary>
- Event to check the state of the control and resize it accordingly
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.GetWeeks(System.Int32)">
-	<summary>
- Gets the number of weeks from the days
- </summary>
-	<param name="intDays">The number of days to be converted to weeks</param>
-	<returns>The number of weeks as an integer</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.CalculateWeekLength">
-	<summary>
- Calulates the value the length box should be
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.CalculateDTPDifference(System.Windows.Forms.DateTimePicker@,System.Windows.Forms.DateTimePicker@)">
-	<summary>
- Calculates the the amount the two date time pickers should be apart
- </summary>
-	<param name="dtpChangedDate">The date time picker that has had its value changed</param>
-	<param name="dtpDateToChange">The date time picker that hasn't had it's value changed</param>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.UpdateControls(System.Object@)">
-	<summary>
- Event to update the controls on the user control
- </summary>
-	<param name="intControlValue">The enumaration value of the sending control</param>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TermAndWeekSetup.CheckTextBoxEntry(System.Object,System.Windows.Forms.KeyEventArgs)">
-	<summary>
- Checks the entered keystrokes to allow only numbers
- </summary>
-	<param name="sender">The sender object</param>
-	<param name="e">The key event argument</param>
-	<remarks></remarks>
-</member><member name="F:Tempestas.frmBothTimetable.twsWeek">
-	<summary>
- Stores the controls for setting up a both timetable system
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.frmNewWeekTimetable.btnToPage2_Click(System.Object,System.EventArgs)">
-	<summary>Page one events</summary>
-</member><member name="M:Tempestas.frmNewWeekTimetable.btnCreate_Click(System.Object,System.EventArgs)">
-	<summary>
- Page two events
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="P:Tempestas.DayEventView.Time">
-	<summary>
- Properties that update the control to show a timetabled event
- </summary>
-	<value></value>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.DayEventView.CheckInput(System.Windows.Forms.Label)">
-	<summary>
- Routines the control calls but have no real association
- </summary>
-	<param name="lblSource"></param>
-	<remarks></remarks>
-</member><member name="F:Tempestas.frmTermTimetable.twsTerm">
-	<summary>
- Stores the term and week setup controls
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.frmTermTimetable.btnPage2Cancel_Click(System.Object,System.EventArgs)">
-	<summary>Events that are inheritable or useable for other inherited forms</summary>
-</member><member name="M:Tempestas.mdlDatabaseRelated.AddThreeFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary> Procedures that add data to the database </summary>
-</member><member name="P:Tempestas.My.Resources.resInheritFromFormImages.ResourceManager">
+<member name="P:Tempestas.My.Resources.resInheritFromFormImages.ResourceManager">
 	<summary>
   Returns the cached ResourceManager instance used by this class.
 </summary>
@@ -232,229 +19,6 @@ Tempestas
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.
 </summary>
-</member><member name="P:Tempestas.My.Resources.Resources.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Tempestas.My.Resources.Resources.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Tempestas.My.Resources.Resources">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="P:Tempestas.WeekEventView.Contact">
-	<summary>
- Properties of the control
- </summary>
-	<value></value>
-	<returns></returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TextBoxEvents.AllowOnlyNumbers(System.Object,System.Windows.Forms.KeyEventArgs)">
-	<summary>
- Allows only numbers to be entered into a text box. Can only be placed in the keydown event
- </summary>
-	<param name="sender">The sender of the the text box</param>
-	<param name="e">The key event argument of the text box</param>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TextBoxEvents.AllowOnlyText(System.Object,System.Windows.Forms.KeyEventArgs)">
-	<summary>
- Allows only text to be entered into a text box. Can only be placed in the keydown event
- </summary>
-	<param name="sender">The sender of the the text box</param>
-	<param name="e">The key event argument of the text box</param>
-	<remarks></remarks>
-</member><member name="M:Tempestas.TextBoxEvents.EntryError(System.Windows.Forms.Form@,System.String,System.Windows.Forms.Label@,System.Windows.Forms.TextBox@)">
-	<summary>
- Event for displaying an error message and turning a text box back colour to misty red when there is an error with the input for the text box
- </summary>
-	<param name="frmParent">The form text box belongs to</param>
-	<param name="strErrorMessage">The string to add to the error label</param>
-	<param name="lblError">The error label of the form</param>
-	<param name="txtErrorTextBox">The text box to be highlighted for the error</param>
-	<remarks></remarks>
-</member><member name="T:Tempestas.TextBoxEvents">
-	<summary>
- Events for checking and modifying text boxes.
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.frmInheritFromForm.intWindowState">
-	<summary>
- Integer to hold the current state of the window
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.frmInheritFromForm.sizWindowSize">
-	<summary>
- Stores the size of the window before maximising it
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.frmInheritFromForm.pntWindowLocation">
-	<summary>
- Stores the location of the window before maximising it
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.frmInheritFromForm.RestoreMaximise">
-	<summary>
- Method to ensure that the form maximises and restores to the correct size
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.frmInheritFromForm.CheckScreen">
-	<summary>
- Checks to see which screen the form is in
- </summary>
-	<returns>Returns the rectangle the form should be</returns>
-	<remarks></remarks>
-</member><member name="P:Tempestas.My.Resources.Images.ResourceManager">
-	<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member><member name="P:Tempestas.My.Resources.Images.Culture">
-	<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
-</member><member name="T:Tempestas.My.Resources.Images">
-	<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member><member name="M:Tempestas.frmNewTermTimetable.btnCreate_Click(System.Object,System.EventArgs)">
-	<summary>
- Page two events
- </summary>
-	<param name="sender"></param>
-	<param name="e"></param>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Addition.ThreeFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary>
- Function for adding three fields to the database
- </summary>
-	<param name="strTableName">The name of the table to add to</param>
-	<param name="strColumnOne">The name of the first column to add to</param>
-	<param name="strValueOne">The value to add to the first column</param>
-	<param name="strColumnTwo">The name of the second column to add to</param>
-	<param name="strValueTwo">The value to add to the second column</param>
-	<param name="strColumnThree">The name of the third column to add to</param>
-	<param name="strValueThree">The value to add to the third column</param>
-	<returns>Returns true if successful, or an error string if not</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Addition.FourFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary>
- Function for adding four fields to the database
- </summary>
-	<param name="strTableName">The name of the table to add to</param>
-	<param name="strColumnOne">The name of the first column to add to</param>
-	<param name="strValueOne">The value to add to the first column</param>
-	<param name="strColumnTwo">The name of the second column to add to</param>
-	<param name="strValueTwo">The value to add to the second column</param>
-	<param name="strColumnThree">The name of the third column to add to</param>
-	<param name="strValueThree">The value to add to the third column</param>
-	<param name="strColumnFour">The name of the fourth column to add to</param>
-	<param name="strValueFour">The value to add to the fourth column</param>
-	<returns>Returns true if successful, or an error string if not</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Addition.FiveFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary>
- Function for adding five fields to the database
- </summary>
-	<param name="strTableName">The name of the table to add to</param>
-	<param name="strColumnOne">The name of the first column to add to</param>
-	<param name="strValueOne">The value to add to the first column</param>
-	<param name="strColumnTwo">The name of the second column to add to</param>
-	<param name="strValueTwo">The value to add to the second column</param>
-	<param name="strColumnThree">The name of the third column to add to</param>
-	<param name="strValueThree">The value to add to the third column</param>
-	<param name="strColumnFour">The name of the fourth column to add to</param>
-	<param name="strValueFour">The value to add to the fourth column</param>
-	<param name="strColumnFive">The name of the fifth column to add to</param>
-	<param name="strValueFive">The value to add to the fifth column</param>
-	<returns>Returns true if successful, or an error string if not</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Addition.SevenFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary>
- Function for adding seven fields to the database
- </summary>
-	<param name="strTableName">The name of the table to add to</param>
-	<param name="strColumnOne">The name of the first column to add to</param>
-	<param name="strValueOne">The value to add to the first column</param>
-	<param name="strColumnTwo">The name of the second column to add to</param>
-	<param name="strValueTwo">The value to add to the second column</param>
-	<param name="strColumnThree">The name of the third column to add to</param>
-	<param name="strValueThree">The value to add to the third column</param>
-	<param name="strColumnFour">The name of the fourth column to add to</param>
-	<param name="strValueFour">The value to add to the fourth column</param>
-	<param name="strColumnFive">The name of the fifth column to add to</param>
-	<param name="strValueFive">The value to add to the fifth column</param>
-	<param name="strColumnSix">The name of the sixth column to add to</param>
-	<param name="strValueSix">The value to add to the sixth column</param>
-	<param name="strColumnSeven">The name of the seventh column to add to</param>
-	<param name="strValueSeven">The value to add to the seventh column</param>
-	<returns>Returns true if successful, or an error string if not</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Addition.EightFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
-	<summary>
- Function for adding eight fields to the database
- </summary>
-	<param name="strTableName">The name of the table to add to</param>
-	<param name="strColumnOne">The name of the first column to add to</param>
-	<param name="strValueOne">The value to add to the first column</param>
-	<param name="strColumnTwo">The name of the second column to add to</param>
-	<param name="strValueTwo">The value to add to the second column</param>
-	<param name="strColumnThree">The name of the third column to add to</param>
-	<param name="strValueThree">The value to add to the third column</param>
-	<param name="strColumnFour">The name of the fourth column to add to</param>
-	<param name="strValueFour">The value to add to the fourth column</param>
-	<param name="strColumnFive">The name of the fifth column to add to</param>
-	<param name="strValueFive">The value to add to the fifth column</param>
-	<param name="strColumnSix">The name of the sixth column to add to</param>
-	<param name="strValueSix">The value to add to the sixth column</param>
-	<param name="strColumnSeven">The name of the seventh column to add to</param>
-	<param name="strValueSeven">The value to add to the seventh column</param>
-	<param name="strColumnEight">The name of the eighth column to add to</param>
-	<param name="strValueEight">The value to add to the eighth column</param>
-	<returns>Returns true if successful, or an error string if not</returns>
-	<remarks></remarks>
-</member><member name="T:Tempestas.Database.Addition">
-	<summary>
- Methods for adding information to the database
- </summary>
-	<remarks></remarks>
-</member><member name="F:Tempestas.Database.Connection.ctnTempestasPrime">
-	<summary>
- SQL connection variable
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Connection.Open">
-	<summary>
- Opens a new connection to the tempestas database
- </summary>
-	<returns>Boolean value of success</returns>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.Connection.Close">
-	<summary>
- Closes the connection to the database
- </summary>
-	<returns>Boolean value of success</returns>
-	<remarks></remarks>
-</member><member name="T:Tempestas.Database.Connection">
-	<summary>
- Methods relating to the database connection
- </summary>
-	<remarks></remarks>
-</member><member name="M:Tempestas.Database.CreateParameter(System.String@,System.String@)">
-	<summary>
- Function to create the parameters for an sql command
- </summary>
-	<param name="strParamName">The name of the parameter</param>
-	<param name="strParamValue">The value to be assigned to the parameter</param>
-	<returns>Returns a sql parameter instance</returns>
-	<remarks></remarks>
-</member><member name="T:Tempestas.Database">
-	<summary>
- Methods for interfacing with the Tempestas database
- </summary>
-	<remarks></remarks>
 </member><member name="F:Tempestas.Timetable.TimetableInformation.Timetable.ID">
 	<summary>
  The array value for the timetable ID
@@ -744,6 +308,135 @@ Tempestas
  Provides methods, constants and instances for manipulating timetables. Not inheritable
  </summary>
 	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Addition.ThreeFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Function for adding three fields to the database
+ </summary>
+	<param name="strTableName">The name of the table to add to</param>
+	<param name="strColumnOne">The name of the first column to add to</param>
+	<param name="strValueOne">The value to add to the first column</param>
+	<param name="strColumnTwo">The name of the second column to add to</param>
+	<param name="strValueTwo">The value to add to the second column</param>
+	<param name="strColumnThree">The name of the third column to add to</param>
+	<param name="strValueThree">The value to add to the third column</param>
+	<returns>Returns true if successful, or an error string if not</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Addition.FourFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Function for adding four fields to the database
+ </summary>
+	<param name="strTableName">The name of the table to add to</param>
+	<param name="strColumnOne">The name of the first column to add to</param>
+	<param name="strValueOne">The value to add to the first column</param>
+	<param name="strColumnTwo">The name of the second column to add to</param>
+	<param name="strValueTwo">The value to add to the second column</param>
+	<param name="strColumnThree">The name of the third column to add to</param>
+	<param name="strValueThree">The value to add to the third column</param>
+	<param name="strColumnFour">The name of the fourth column to add to</param>
+	<param name="strValueFour">The value to add to the fourth column</param>
+	<returns>Returns true if successful, or an error string if not</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Addition.FiveFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Function for adding five fields to the database
+ </summary>
+	<param name="strTableName">The name of the table to add to</param>
+	<param name="strColumnOne">The name of the first column to add to</param>
+	<param name="strValueOne">The value to add to the first column</param>
+	<param name="strColumnTwo">The name of the second column to add to</param>
+	<param name="strValueTwo">The value to add to the second column</param>
+	<param name="strColumnThree">The name of the third column to add to</param>
+	<param name="strValueThree">The value to add to the third column</param>
+	<param name="strColumnFour">The name of the fourth column to add to</param>
+	<param name="strValueFour">The value to add to the fourth column</param>
+	<param name="strColumnFive">The name of the fifth column to add to</param>
+	<param name="strValueFive">The value to add to the fifth column</param>
+	<returns>Returns true if successful, or an error string if not</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Addition.SevenFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Function for adding seven fields to the database
+ </summary>
+	<param name="strTableName">The name of the table to add to</param>
+	<param name="strColumnOne">The name of the first column to add to</param>
+	<param name="strValueOne">The value to add to the first column</param>
+	<param name="strColumnTwo">The name of the second column to add to</param>
+	<param name="strValueTwo">The value to add to the second column</param>
+	<param name="strColumnThree">The name of the third column to add to</param>
+	<param name="strValueThree">The value to add to the third column</param>
+	<param name="strColumnFour">The name of the fourth column to add to</param>
+	<param name="strValueFour">The value to add to the fourth column</param>
+	<param name="strColumnFive">The name of the fifth column to add to</param>
+	<param name="strValueFive">The value to add to the fifth column</param>
+	<param name="strColumnSix">The name of the sixth column to add to</param>
+	<param name="strValueSix">The value to add to the sixth column</param>
+	<param name="strColumnSeven">The name of the seventh column to add to</param>
+	<param name="strValueSeven">The value to add to the seventh column</param>
+	<returns>Returns true if successful, or an error string if not</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Addition.EightFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Function for adding eight fields to the database
+ </summary>
+	<param name="strTableName">The name of the table to add to</param>
+	<param name="strColumnOne">The name of the first column to add to</param>
+	<param name="strValueOne">The value to add to the first column</param>
+	<param name="strColumnTwo">The name of the second column to add to</param>
+	<param name="strValueTwo">The value to add to the second column</param>
+	<param name="strColumnThree">The name of the third column to add to</param>
+	<param name="strValueThree">The value to add to the third column</param>
+	<param name="strColumnFour">The name of the fourth column to add to</param>
+	<param name="strValueFour">The value to add to the fourth column</param>
+	<param name="strColumnFive">The name of the fifth column to add to</param>
+	<param name="strValueFive">The value to add to the fifth column</param>
+	<param name="strColumnSix">The name of the sixth column to add to</param>
+	<param name="strValueSix">The value to add to the sixth column</param>
+	<param name="strColumnSeven">The name of the seventh column to add to</param>
+	<param name="strValueSeven">The value to add to the seventh column</param>
+	<param name="strColumnEight">The name of the eighth column to add to</param>
+	<param name="strValueEight">The value to add to the eighth column</param>
+	<returns>Returns true if successful, or an error string if not</returns>
+	<remarks></remarks>
+</member><member name="T:Tempestas.Database.Addition">
+	<summary>
+ Methods for adding information to the database
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.Database.Connection.ctnTempestasPrime">
+	<summary>
+ SQL connection variable
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Connection.Open">
+	<summary>
+ Opens a new connection to the tempestas database
+ </summary>
+	<returns>Boolean value of success</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.Connection.Close">
+	<summary>
+ Closes the connection to the database
+ </summary>
+	<returns>Boolean value of success</returns>
+	<remarks></remarks>
+</member><member name="T:Tempestas.Database.Connection">
+	<summary>
+ Methods relating to the database connection
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.Database.CreateParameter(System.String@,System.String@)">
+	<summary>
+ Function to create the parameters for an sql command
+ </summary>
+	<param name="strParamName">The name of the parameter</param>
+	<param name="strParamValue">The value to be assigned to the parameter</param>
+	<returns>Returns a sql parameter instance</returns>
+	<remarks></remarks>
+</member><member name="T:Tempestas.Database">
+	<summary>
+ Methods for interfacing with the Tempestas database
+ </summary>
+	<remarks></remarks>
 </member><member name="M:Tempestas.frmWeekTimetable.CreateNewYears(System.Int32,System.Int32)">
 	<summary>
  Create a new panel to to store the week controls then adds the controls to the panel
@@ -757,6 +450,313 @@ Tempestas
  </summary>
 	<param name="intStartYear">The year number to start adding from</param>
 	<param name="intEndYear">The year number to add to</param>
+	<remarks></remarks>
+</member><member name="P:Tempestas.DayEventView.Time">
+	<summary>
+ Properties that update the control to show a timetabled event
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.DayEventView.CheckInput(System.Windows.Forms.Label)">
+	<summary>
+ Routines the control calls but have no real association
+ </summary>
+	<param name="lblSource"></param>
+	<remarks></remarks>
+</member><member name="M:Tempestas.mdlDatabaseRelated.AddThreeFields(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary> Procedures that add data to the database </summary>
+</member><member name="M:Tempestas.frmNewWeekTimetable.btnToPage2_Click(System.Object,System.EventArgs)">
+	<summary>Page one events</summary>
+</member><member name="M:Tempestas.frmNewWeekTimetable.btnCreate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Page two events
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="F:Tempestas.frmBothTimetable.twsWeek">
+	<summary>
+ Stores the controls for setting up a both timetable system
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Tempestas.PictureBoxButton.ImageList">
+	<summary>
+ Gets/sets the list of images used to display
+ for the three states: normal (up), depressed
+ (down) and disabled (grayed)
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.OnCreateControl">
+	<summary>
+ When the control is instantiated, load
+ the images used by the various button states.
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.OnClick(System.EventArgs)">
+	<summary>
+ When the control is clicked, display the image
+ for "normal" (up) state.
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ When a mouse button is released, display the image
+ for the "normal" (up) state.
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+	<summary>
+ When a mouse button is pressed on the control,
+ display the image for the "depressed" (down) state.
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.OnEnabledChanged(System.EventArgs)">
+	<summary>
+ When the control is enabled or disabled, display
+ the appropriate image for the enabled (normal) or
+ disabled (gray) state.
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.SetImageList">
+	<summary>
+ This method (called when the ImageList property
+ is set) sets the appropriate image for the control
+ based on its enabled state, and sizes itself
+ to accommodate the dimensions of the image.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.PictureBoxButton.SetButtonImage(System.Int32)">
+	<summary>
+ Set the image to the state specified by the
+ imageIndex parameter, which must be set to
+ one of the three values for normal (0),
+ depressed (1) or disabled (2).
+ </summary>
+</member><member name="P:Tempestas.PictureBoxButton.DialogResult">
+	<summary>
+ Stub property required to implement IButtonControl
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.NotifyDefault(System.Boolean)">
+	<summary>
+ Stub method required to implement IButtonControl
+ </summary>
+</member><member name="M:Tempestas.PictureBoxButton.PerformClick">
+	<summary>
+ Respond to the notification given by IButtonControl that
+ a button click has occurred. 
+ </summary>
+</member><member name="T:Tempestas.PictureBoxButton">
+	<summary>
+ This control extends the standard PictureBox control into a
+ clickable button supporting images for the "up-state",
+ "down-state" and "disabled-state" of the button.
+ </summary>
+</member><member name="F:Tempestas.frmInheritFromForm.intWindowState">
+	<summary>
+ Integer to hold the current state of the window
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.frmInheritFromForm.sizWindowSize">
+	<summary>
+ Stores the size of the window before maximising it
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.frmInheritFromForm.pntWindowLocation">
+	<summary>
+ Stores the location of the window before maximising it
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.frmInheritFromForm.RestoreMaximise">
+	<summary>
+ Method to ensure that the form maximises and restores to the correct size
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.frmInheritFromForm.CheckScreen">
+	<summary>
+ Checks to see which screen the form is in
+ </summary>
+	<returns>Returns the rectangle the form should be</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TextBoxEvents.AllowOnlyNumbers(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Allows only numbers to be entered into a text box. Can only be placed in the keydown event
+ </summary>
+	<param name="sender">The sender of the the text box</param>
+	<param name="e">The key event argument of the text box</param>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TextBoxEvents.AllowOnlyText(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Allows only text to be entered into a text box. Can only be placed in the keydown event
+ </summary>
+	<param name="sender">The sender of the the text box</param>
+	<param name="e">The key event argument of the text box</param>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TextBoxEvents.EntryError(System.Windows.Forms.Form@,System.String,System.Windows.Forms.Label@,System.Windows.Forms.TextBox@)">
+	<summary>
+ Event for displaying an error message and turning a text box back colour to misty red when there is an error with the input for the text box
+ </summary>
+	<param name="frmParent">The form text box belongs to</param>
+	<param name="strErrorMessage">The string to add to the error label</param>
+	<param name="lblError">The error label of the form</param>
+	<param name="txtErrorTextBox">The text box to be highlighted for the error</param>
+	<remarks></remarks>
+</member><member name="T:Tempestas.TextBoxEvents">
+	<summary>
+ Events for checking and modifying text boxes.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControlHeight.Term">
+	<summary>
+ The height of the control, in pixels, for a term system
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControlHeight.Both">
+	<summary>
+ The height of the control, in pixels, for a term system
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Tempestas.TermAndWeekSetup.intControlHeight">
+	<summary>
+ Enumeration to hold the size of the control for different states
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControls.StartDate">
+	<summary>
+ The value to identify the start date date time picker
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControls.FinishDate">
+	<summary>
+ The value to identify the finish date date time picker
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControls.Length">
+	<summary>
+ The value to identify the length text box
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControls.StartWeek">
+	<summary>
+ The value to identify the start week text box
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intControls.FinishWeek">
+	<summary>
+ The value to identify the finish week text box
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Tempestas.TermAndWeekSetup.intControls">
+	<summary>
+ Enumeration to identify the different controls
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.bolUpdating">
+	<summary>
+ True if the controls are updating otherwise false
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.bolTermSetup">
+	<summary>
+ Stores the result of the term setup property
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Tempestas.TermAndWeekSetup.intTerm">
+	<summary>
+ Variable to hold the term number
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Tempestas.TermAndWeekSetup.TermSetup">
+	<summary>
+ The property for setting the state of the control
+ </summary>
+	<value>Boolean to decide if the control is meant to be a term setup system, true = term system, false = week system</value>
+	<returns>Returns true if the control is meant to be a term setup system</returns>
+	<remarks></remarks>
+</member><member name="P:Tempestas.TermAndWeekSetup.TermNumber">
+	<summary>
+ Property to set the term of the control
+ </summary>
+	<value>Integer value indicating the term number of the control</value>
+	<returns>Returns the integer value of the term</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.ControlResize">
+	<summary>
+ Event to check the state of the control and resize it accordingly
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.GetWeeks(System.Int32)">
+	<summary>
+ Gets the number of weeks from the days
+ </summary>
+	<param name="intDays">The number of days to be converted to weeks</param>
+	<returns>The number of weeks as an integer</returns>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.CalculateWeekLength">
+	<summary>
+ Calulates the value the length box should be
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.CalculateDTPDifference(System.Windows.Forms.DateTimePicker@,System.Windows.Forms.DateTimePicker@)">
+	<summary>
+ Calculates the the amount the two date time pickers should be apart
+ </summary>
+	<param name="dtpChangedDate">The date time picker that has had its value changed</param>
+	<param name="dtpDateToChange">The date time picker that hasn't had it's value changed</param>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.UpdateControls(System.Object@)">
+	<summary>
+ Event to update the controls on the user control
+ </summary>
+	<param name="intControlValue">The enumaration value of the sending control</param>
+	<remarks></remarks>
+</member><member name="M:Tempestas.TermAndWeekSetup.CheckTextBoxEntry(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Checks the entered keystrokes to allow only numbers
+ </summary>
+	<param name="sender">The sender object</param>
+	<param name="e">The key event argument</param>
+	<remarks></remarks>
+</member><member name="F:Tempestas.frmTermTimetable.twsTerm">
+	<summary>
+ Stores the term and week setup controls
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Tempestas.frmTermTimetable.btnPage2Cancel_Click(System.Object,System.EventArgs)">
+	<summary>Events that are inheritable or useable for other inherited forms</summary>
+</member><member name="P:Tempestas.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tempestas.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Tempestas.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Tempestas.WeekEventView.Contact">
+	<summary>
+ Properties of the control
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Tempestas.My.Resources.Images.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Tempestas.My.Resources.Images.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Tempestas.My.Resources.Images">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Tempestas.frmNewTermTimetable.btnCreate_Click(System.Object,System.EventArgs)">
+	<summary>
+ Page two events
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
 	<remarks></remarks>
 </member>
 </members>
