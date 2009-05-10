@@ -44,7 +44,7 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -53,14 +53,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tempestas.exe" size="2791424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Tempestas.exe" size="6912000">
       <assemblyIdentity name="Tempestas" version="0.1.3.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>73+V1jzIJA7xowIJF0jFqzcM6Rg=</dsig:DigestValue>
+        <dsig:DigestValue>aWZT/+0jsN8FgDsepHKOsPe+MZE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -70,7 +70,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>ESCvAOJk0RnmDitRyseCDHwFDW0=</dsig:DigestValue>
+      <dsig:DigestValue>5w1yKPc+3mUHDWsNmj3AahC/Ydo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Help\Tempestas Help.chm" size="13649">
