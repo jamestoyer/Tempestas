@@ -41,6 +41,7 @@
             ' Show the error label
             lblError.Visible = True
         Else
+
             ' Set the selected ID
             intSelectedID = intEntryID(intIndex)
 

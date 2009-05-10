@@ -60,7 +60,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>prEeCx3f6i08pv6Io90+HTncY9M=</dsig:DigestValue>
+        <dsig:DigestValue>73+V1jzIJA7xowIJF0jFqzcM6Rg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -70,7 +70,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>E+LR3uY5rMkbNwhYZ5acevIqMgo=</dsig:DigestValue>
+      <dsig:DigestValue>ESCvAOJk0RnmDitRyseCDHwFDW0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Help\Tempestas Help.chm" size="13649">
